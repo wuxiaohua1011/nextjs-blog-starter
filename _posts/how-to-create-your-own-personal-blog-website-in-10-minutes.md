@@ -29,6 +29,35 @@ You can also attach your domain quite easily. I used Google Domain
 
 
 ### 3. Modify content
+Blog posts are stored in the `/_posts` directory as Markdown files. Each post must include the appropriate front matter. 
+
+#### Front matter
+An example of the required front matter:
+
+> Note: The formatting of the front matter is important. Ensure the indentation, and quotes remain the same. 
+
+```text
+---
+title: 'A blog starter you actually want to use'
+excerpt: 'There are hundreds of different blog starters out there. But none felt quite right. So I built my own. Based off the basic Next.js Blog Starter, but now with several handy features like dark mode (using local storage) or Google Analytics. It comes with Storybook too.'
+coverImage: '/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree-minimal.jpg'
+date: '2021-08-24T05:35:07.322Z'
+author:
+  name: sandypockets
+  picture: '/assets/blog/authors/sandypockets_avatar.jpg'
+ogImage:
+  url: '/assets/blog/a-nextjs-blog-starter-you-actually-want-to-use/tree-minimal.jpg'
+---
+```
+
+Adjust the value of each key as needed.
+
+First, you should replace the placeholder `nimbus nova` information in the `scripts/generate-post.js` script with your own info. Then, it's as simple as running the script: 
+
+```shell
+yarn new your-post-title
+```
+
 
 
 ### 4. [Optional] Modify features
