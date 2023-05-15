@@ -63,7 +63,6 @@ export default function ContactForm() {
         <form action="#" method="POST" className="grid grid-cols-1 gap-y-6">
           <div>
             <label htmlFor="full-name" className="sr-only">
-              Full name
             </label>
             <input
               type="text"

@@ -2,7 +2,7 @@ import { writeFileSync } from 'fs'
 import { globby } from 'globby'
 import prettier from 'prettier'
 
-const BLOG_URL = 'https://blog-starter.sandypockets.dev'
+const BLOG_URL = 'https://nimbus-nova.com'
 const LANG = 'en-CA'
 
 async function generate() {
