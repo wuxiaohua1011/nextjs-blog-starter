@@ -13,7 +13,7 @@ export default function Index({ allPosts }) {
     <>
       <Layout>
         <Head>
-          <title>Michael&apos;s Personal Blog</title>
+          <title>Nimbus Nova</title>
         </Head>
         <Container>
           <Intro />
