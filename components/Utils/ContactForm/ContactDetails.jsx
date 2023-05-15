@@ -25,7 +25,7 @@ export default function ContactDetails() {
                 className="flex-shrink-0 h-6 w-6 text-gray-400 dark:text-gray-300"
                 aria-hidden="true"
               />
-              <span className="ml-3">nimbusnova123@gmail.com</span>
+              <span className="ml-3">info@nimbus-nova.com</span>
             </dd>
           </div>
         </dl>
