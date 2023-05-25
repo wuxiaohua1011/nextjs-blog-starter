@@ -63,10 +63,12 @@ export default function Footer() {
           >
             {navigation.main.map((item, index) => (
               <div key={index} className="px-5 py-2">
-                <Link href={item.href}>
-                  <a className="text-base text-gray-500 hover:text-gray-900 dark:hover:text-gray-200">
-                    {item.name}
-                  </a>
+                <Link
+                  href={item.href}
+                  className="text-base text-gray-500 hover:text-gray-900 dark:hover:text-gray-200">
+
+                  {item.name}
+
                 </Link>
               </div>
             ))}
@@ -91,5 +93,5 @@ export default function Footer() {
         </div>
       </Container>
     </footer>
-  )
+  );
 }
