@@ -4,7 +4,7 @@ excerpt: "Soldering is a fundamental skill in electronics, allowing you to join 
 coverImage: "/assets/blog/how-to-solder/how-to-solder-cover.png"
 date: "2023-05-25T06:47:58.760Z"
 author:
-  name: "nimbus nova"
+  name: "Nimbus Nova"
   picture: "/assets/blog/authors/nimbus_nova_avatar.png"
 ogImage:
   url: "/assets/blog/how-to-solder/how-to-solder-cover.png"
